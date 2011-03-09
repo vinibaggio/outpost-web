@@ -1,6 +1,6 @@
 GIT
-  remote: https://www.github.com/vinibaggio/outpost.git
-  revision: dad326833e674297bf0acd67c3a935a275a48953
+  remote: git://www.github.com/vinibaggio/outpost.git
+  revision: 3a3f23846814134b33f3c88e0637a22c5daaa5e8
   specs:
     outpost (0.2.0)
 
