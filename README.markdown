@@ -4,11 +4,10 @@ This is a simple Sinatra application demonstrating how you can use the
 [outpost gem](http://www.github.com/vinibaggio/outpost) to help you monitor
 your app(s), check it for more information.
 
-You can see it running at [outpost-web.vinibaggio.net](http://outpost-web.vinibaggio.net)!
+You can see it running at [outpost-web.vinibaggio.net](http://outpost-web.vinibaggio.net) (soon)!
 
-It currently monitors three sites:
+It currently monitors:
 
-* My own blog (at [vinibaggio.net](http://www.vinibaggio.net))
 * Call 4 paperz (at [call4paperz.com](http://www.call4paperz.com))
 * Agendatech (at [agendatech.com.br](http://www.agendatech.com.br))
 
