@@ -1,0 +1,12 @@
+.statuses {
+  font-size: 48px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -0.1em;
+  border-top: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.statuses p { margin: 40px 0; }
+.statuses li { margin: 20px 0; }
+.statuses .up { color: green; }
+.statuses .down { color: red; }

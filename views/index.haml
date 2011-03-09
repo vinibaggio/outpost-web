@@ -1,0 +1,29 @@
+!!!
+%html
+  %head
+    %title= 'Outpost-Web Example Dashboard'
+    %link{:rel => 'stylesheet', :href => 'http://vinibaggio.net/stylesheets/screen.css', :type => 'text/css', :media => 'screen, projection'}
+    %link{:rel => 'stylesheet', :href => '/site.css', :type => 'text/css', :media => 'screen, projection'}
+
+  %body
+    %header
+      %h1 outpost-web
+    %p
+      This is a simple Sinatra application demonstrating how you can use the
+      %a{:href => 'http://www.github.com/vinibaggio/outpost' } outpost gem
+      to help you monitor your app(s), check it for more information.
+    %p
+      For more information, check me at GitHub!
+      %a{:href => 'http://www.github.com/vinibaggio/outpost-web'} http://www.github.com/vinibaggio/outpost-web
+
+    .statuses
+      %p ... and the results are:
+      %ul
+        - @statuses.each do |status|
+          %li
+            = status[:site]
+            is 
+            %span{:class => status[:status]}= "#{status[:status].upcase}!"
+    %footer
+      Made by Vinicius Baggio Fuentes. &mdash;
+      %a{:href => 'http://vinibaggio.net/'} http://vinibaggio.net

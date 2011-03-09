@@ -1,0 +1,25 @@
+GIT
+  remote: https://www.github.com/vinibaggio/outpost.git
+  revision: dad326833e674297bf0acd67c3a935a275a48953
+  specs:
+    outpost (0.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    haml (3.0.25)
+    net-ping (1.4.0)
+    rack (1.2.1)
+    sinatra (1.2.0)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  net-ping
+  outpost!
+  sinatra
