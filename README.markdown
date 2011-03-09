@@ -7,6 +7,7 @@ your app(s), check it for more information.
 You can see it running at [outpost-web.vinibaggio.net](http://outpost-web.vinibaggio.net)!
 
 It currently monitors three sites:
+
 * My own blog (at [vinibaggio.net](http://www.vinibaggio.net))
 * Call 4 paperz (at [call4paperz.com](http://www.call4paperz.com))
 * Agendatech (at [agendatech.com.br](http://www.agendatech.com.br))
