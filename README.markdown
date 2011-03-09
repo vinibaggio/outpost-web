@@ -4,7 +4,7 @@ This is a simple Sinatra application demonstrating how you can use the
 [outpost gem](http://www.github.com/vinibaggio/outpost) to help you monitor
 your app(s), check it for more information.
 
-You can see it running at [outpost-web.vinibaggio.net](http://outpost-web.vinibaggio.net) (soon)!
+You can see it running at [outpost-web.vinibaggio.net](http://outpost-web.vinibaggio.net)!
 
 It currently monitors:
 
